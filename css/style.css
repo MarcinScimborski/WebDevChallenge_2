@@ -7,29 +7,207 @@
     /* zliczy wszystkie wartosci w elemencie */
 }
 
+body {
+    background-color: #f9f9fb !important;
+}
+
 #wrapper {}
 
 .bg-faded {
-    background-color: white !important;
+    background-color: #f9f9fb !important;
+    margin-top: 2em;
 }
 
-.navbar-brand {
-    margin-left: 15%;
+.btn {
+    width: 79%;
+    font-weight: 700 !important;
+    font-size: 19px !important;
+    border-right: 1px solid black !important;
+    border-radius: 0px !important;
+    box-shadow: 0px 2px 5px #888888;
+    cursor: pointer;
+}
+
+.navbar {
+    padding-bottom: .5rem;
 }
 
 .navbar-nav {
-    margin-right: 15%;
+    margin-right: 17%;
+}
+
+.navbar-brand {
+    margin-left: 17%;
 }
 
 #navbarNav a.nav-link {
-    margin-right: 15px;
+    margin-right: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
     text-transform: uppercase;
-    border-top: 5px solid white;
+    border-top: 5px solid #f9f9fb;
 }
 
 #navbarNav a.nav-link:hover {
     border-top: 5px solid red;
+    padding-right: 0px;
+    padding-left: 0px;
 }
+
+.marginButton {
+    margin-bottom: 1em;
+}
+
+.marginButton p {
+    line-height: 10px;
+}
+
+.marginButton p:first-child {
+    margin-top: 1em;
+}
+
+#freshLife {
+    background-image: url(../img/tlo_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+}
+
+#aboutUs {
+    background-image: url(../img/tlo_about1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+#ourServices {
+    background-image: url(../img/tlo_service1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+#gallery{
+    background-image: url(../img/tlo_gallery1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.fresh,
+.about,
+.services {
+    position: relative;
+}
+
+.fresh {
+    top: 345px;
+}
+
+.about {
+    top: 254px;
+}
+
+.services {
+    top: 254px;
+}
+
+.fresh h1 {
+    margin-bottom: 0.2em;
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+.fresh p {
+    text-align: justify;
+    line-height: 12px;
+}
+
+.about h1 {
+    margin-bottom: 0.3em;
+    font-size: 5em;
+    color: white;
+    font-weight: 600;
+}
+
+.about p {
+    line-height: 12px;
+    color: white;
+}
+
+.breakP {
+    padding-bottom: 1em;
+}
+
+.freshLifeButton {
+    background-color: #fe6033;
+    color: white;
+    border: none;
+    margin-top: 1em;
+    padding: 0.5em 1em 0.5em 1em;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: lighter;
+    box-shadow: 0px 2px 5px #888888;
+    cursor: pointer;
+}
+
+.imgAboutUsRow {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    padding-bottom: 4em;
+}
+
+.jumbotron {
+    background-color:#fee92e !important;
+    text-align: center;
+}
+
+.display-3 {
+    font-weight: 700 !important;
+    margin-bottom:0.6em;  
+}
+
+.lead p {
+    margin-bottom: 0.4rem !important;
+    font-size: 1.0rem !important;
+}
+
+.page-header {
+    position: relative;
+    top: 43%;
+    left:13%;
+    transform: translateY(-43%);
+}
+
+.page-header h1 {
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    font-weight: 700;
+}
+
+.text-center {
+    position: relative;
+    background-color: #dddddd;
+    width: 21%;
+    height: 101px;
+    box-shadow: 0px 2px 5px #888888;
+}
+
+.text-center img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 /* Media Queries */
 
@@ -37,5 +215,8 @@
     .container-fluid {
         padding: 0px !important;
     }
+    .row {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
 }
-
